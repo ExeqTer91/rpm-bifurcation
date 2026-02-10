@@ -21,7 +21,7 @@ PHI = (1 + np.sqrt(5)) / 2
 fig, axes = plt.subplots(1, 3, figsize=(15, 4.5))
 
 colors = ['#66c2a5', '#fc8d62', '#8da0cb', '#e78ac3']
-labels_N = [100, 200, 500]
+labels_N = [100, 200, 500, 1000]
 
 for i, N in enumerate(labels_N):
     fname = f'results_convergence_N{N}.json'
